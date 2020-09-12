@@ -1,6 +1,6 @@
 {
   "name": "@ajv-validator/config",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Shared typescript, eslint and prettier configuration",
   "main": "index.js",
   "scripts": {
