@@ -37,5 +37,6 @@
   },
   "lint-staged": {
     "*.{md,json,yaml,js,ts}": "prettier --write"
-  }
+  },
+  "prettier": "./prettierrc.json"
 }
