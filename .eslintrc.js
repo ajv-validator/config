@@ -17,7 +17,9 @@ module.exports = {
     ...jsConfig.rules,
     "@typescript-eslint/array-type": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
-    "@typescript-eslint/consistent-type-definitions": ["error"],
+    "@typescript-eslint/consistent-type-definitions": "error",
+    "no-duplicate-imports": "off",
+    // "@typescript-eslint/consistent-type-imports": "error", // temporarily removed from eslint
     "@typescript-eslint/default-param-last": "error",
     "dot-notation": "off",
     "@typescript-eslint/dot-notation": "error",
