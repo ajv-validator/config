@@ -8,6 +8,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "sourceMap": true,
+    "inlineSources": true,
     "strict": true,
     "strictNullChecks": true,
     "target": "ES2018",
