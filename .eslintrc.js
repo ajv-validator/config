@@ -11,7 +11,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "prettier/@typescript-eslint",
+    "prettier",
   ],
   rules: {
     ...jsConfig.rules,
@@ -29,7 +29,7 @@ module.exports = {
     "no-invalid-this": "off",
     "@typescript-eslint/no-invalid-this": "error",
     "@typescript-eslint/no-misused-new": "error",
-    "@typescript-eslint/no-parameter-properties": "error",
+    "@typescript-eslint/parameter-properties": "error",
     "@typescript-eslint/no-unused-expressions": "error",
     "@typescript-eslint/no-unused-vars": ["error", {argsIgnorePattern: "^_"}],
     "@typescript-eslint/prefer-for-of": "error",
