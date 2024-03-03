@@ -15,6 +15,7 @@ module.exports = {
   ],
   rules: {
     ...jsConfig.rules,
+    "@typescript-eslint/no-unsafe-argument": "off",
     "@typescript-eslint/array-type": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/consistent-type-definitions": "error",
@@ -22,6 +23,7 @@ module.exports = {
     // "@typescript-eslint/consistent-type-imports": "error", // temporarily removed from eslint
     "@typescript-eslint/default-param-last": "error",
     "dot-notation": "off",
+    "@typescript-eslint/no-shadow": "error",
     "@typescript-eslint/dot-notation": "error",
     "@typescript-eslint/explicit-function-return-type": ["error", {allowExpressions: true}],
     "@typescript-eslint/explicit-member-accessibility": ["error", {accessibility: "no-public"}],

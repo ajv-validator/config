@@ -28,7 +28,6 @@ module.exports = {
     "no-redeclare": "error",
     "no-return-assign": "error",
     "no-sequences": "error",
-    "no-shadow": "warn",
     "no-template-curly-in-string": "error",
     "no-trailing-spaces": "error",
     "no-undef-init": "error",
