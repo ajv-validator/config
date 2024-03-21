@@ -1,6 +1,6 @@
 {
   "name": "@ajv-validator/config",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Shared typescript, eslint and prettier configuration",
   "main": "index.js",
   "scripts": {
@@ -21,14 +21,14 @@
   },
   "homepage": "https://github.com/ajv-validator/config#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.7.0",
-    "@typescript-eslint/parser": "^3.7.0",
-    "eslint": "^7.5.0",
-    "eslint-config-prettier": "^6.11.0",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.7"
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "3.0.3",
+    "typescript": "^4.9.5"
   },
   "husky": {
     "hooks": {
