@@ -15,7 +15,7 @@ module.exports = {
   ],
   rules: {
     ...jsConfig.rules,
-    "@typescript-eslint/no-unsafe-argument": "off", // 123 instances
+    "@typescript-eslint/no-unsafe-argument": "off",
     "@typescript-eslint/array-type": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/consistent-type-definitions": "error",
